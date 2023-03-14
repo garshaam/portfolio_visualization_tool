@@ -1,0 +1,30 @@
+
+#Comment dump. Bunch of unused lines with possible useful stuff.
+#totalDataFrame['Hypothetical s&p'] = totalDataFrame['Account value'].apply()
+#totalDataFrame.join(portfolioBalanceData)
+#df['%_rating'] = df.imdb_rating.apply(percentage)
+#totalDataFrame.fillna(method='ffill', inplace=True)
+#totalDataFrame['Account value'].ffill(0, inplace=True)
+#totalDataFrame['Cumulative s&p shares'] = (totalDataFrame['Deposit'])/totalDataFrame[' Close']
+#print(totalDataFrame.set_index('Date').join(depositsData.set_index('Date')))
+#totalDataFrame = totalDataFrame.join(depositsData, lsuffix='_caller', rsuffix='_other')
+#print(totalDataFrame.set_index('Date').head(15))
+#print(depositsData.set_index('Date').head(15))
+#depositsData = depositsData.drop(["Total deposited"], axis=1)
+#print(totalDataFrame.head(15))
+# add column at the right with NaN values
+#totalDataFrame["Account Value"] = [np.nan] * (len(totalDataFrame))
+#print(totalDataFrame.head(10))
+#totalDataFrame['Account Value'].fillna(portfolioBalanceData['Account Value'],inplace=True)
+#print(totalDataFrame.head(10)) accountDictionary = {'mequonman' : 'password'}
+#function Login(username) { keys["MequonMan"]
+# print(accountDictionary.username) #This should print the password
+# }
+#df.loc[(df['sepal_length'] > 5.0) & (df['petal_width'] > 1.0)] dict.mequonman dict["mequonman"] = password
+#print(portfolioBalanceData.head(15))
+#print(comparisonPriceData.head(15))
+#print(depositsData.head(15))
+#totalDataFrame = totalDataFrame.reset_index()
+#totalDataFrame['Account value'].ffill(inplace=True)
+#totalDataFrame['Cumulative deposits'].ffill(inplace=True)
+#totalDataFrame['Cumulative comparison shares'].ffill(inplace=True)
